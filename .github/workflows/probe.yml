@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '17 * * * *'      # каждый час
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'results/**'          # чтобы публикация результата не запускала новый прогон
+      - 'README.md'
 
 concurrency:
   group: probe

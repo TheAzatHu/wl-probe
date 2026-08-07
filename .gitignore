@@ -1,0 +1,5 @@
+bin/
+geo/
+parts/
+*.jsonl
+!results/*.jsonl

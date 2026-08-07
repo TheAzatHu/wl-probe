@@ -111,6 +111,10 @@ def main():
 
     os.makedirs(a.outdir, exist_ok=True)
     ru = [x for x in picked if x["country_code"] == "RU"]
+    # Полный список без квот: потребителю нужен максимально широкий выбор
+    # попыток, квоты разнообразия он накладывает сам на финальном отборе.
+    with open(f"{a.outdir}/alive_full.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(render(x) for x in items) + "\n")
     with open(f"{a.outdir}/alive.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(render(x) for x in picked) + "\n")
     with open(f"{a.outdir}/alive_ru.txt", "w", encoding="utf-8") as f:

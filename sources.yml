@@ -1,0 +1,138 @@
+# Реестр источников VLESS-конфигов.
+#
+#   category:  general    — обычный обход
+#              whitelist  — источники, ориентированные на белые списки РФ
+#              discovery  — зеркала, нужны только для отказоустойчивости
+#   trust:     0..100, влияет на порядок при равном качестве
+#   max_bytes: жёсткий предел загрузки, защита от гигантских зеркал
+#
+# Каждый источник = отдельная параллельная задача в GitHub Actions.
+
+sources:
+  - id: val41k-bypass
+    category: whitelist
+    trust: 80
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/VAL41K/bypass-rkn-blocks/main/configs/obhod_WL
+      - https://codeberg.org/VALCHIK/bypass-rkn-blocks/raw/branch/main/configs/obhod_WL
+
+  - id: val41k-black
+    category: general
+    trust: 70
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/VAL41K/bypass-rkn-blocks/main/configs/obhod_BL
+
+  - id: hiztin-vless
+    category: general
+    trust: 70
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt
+
+  - id: zieng2-wl
+    category: whitelist
+    trust: 85
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt
+      - https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt
+      - https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt
+      - https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt
+
+  - id: igareck-white-checked
+    category: whitelist
+    trust: 95
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt
+      - https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/WHITE-CIDR-RU-checked.txt
+      - https://codeberg.org/igareck/vpn-configs-for-russia/raw/branch/main/WHITE-CIDR-RU-checked.txt
+      - https://bitbucket.org/igareck/vpn-configs-for-russia/raw/main/WHITE-CIDR-RU-checked.txt
+
+  - id: igareck-white-all
+    category: whitelist
+    trust: 85
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt
+      - https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/WHITE-CIDR-RU-all.txt
+      - https://codeberg.org/igareck/vpn-configs-for-russia/raw/branch/main/WHITE-CIDR-RU-all.txt
+      - https://bitbucket.org/igareck/vpn-configs-for-russia/raw/main/WHITE-CIDR-RU-all.txt
+
+  - id: igareck-black-vless
+    category: general
+    trust: 80
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt
+      - https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/BLACK_VLESS_RUS.txt
+      - https://codeberg.org/igareck/vpn-configs-for-russia/raw/branch/main/BLACK_VLESS_RUS.txt
+
+  - id: rjsxrd-bypass
+    category: general
+    trust: 75
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/whoahaow/rjsxrd/main/githubmirror/bypass/bypass-all.txt
+
+  - id: luxxuria-harvester
+    category: general
+    trust: 90
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/luxxuria/harvester/main/top_600.txt
+      - https://raw.githubusercontent.com/luxxuria/harvester/main/ping_tested.txt
+      - https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/top_600.txt
+
+  - id: aviamasters-vpn
+    category: whitelist
+    trust: 80
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt
+      - https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt
+
+  - id: flat447-white
+    category: whitelist
+    trust: 80
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/WHITE_FULL.txt
+
+  - id: flat447-black
+    category: general
+    trust: 70
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/BLACK_LTE.txt
+
+  - id: aetris
+    category: general
+    trust: 65
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/flaafix/AetrisVPN/main/AetrisVPN.txt
+
+  - id: darkroyalty-mirror
+    category: discovery
+    trust: 50
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/22.txt
+      - https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/24.txt
+
+  - id: jsxta-checked
+    category: whitelist
+    trust: 70
+    max_bytes: 20000000
+    urls:
+      - https://gbr.mydan.online/configs
+
+  - id: ryz-uwb
+    category: whitelist
+    trust: 60
+    max_bytes: 20000000
+    urls:
+      - https://raw.githubusercontent.com/RYZgames31/UWB/main/wcfg

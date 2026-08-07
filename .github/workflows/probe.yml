@@ -1,0 +1,166 @@
+name: probe
+
+on:
+  schedule:
+    - cron: '17 * * * *'      # каждый час
+  workflow_dispatch: {}
+
+concurrency:
+  group: probe
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+env:
+  XRAY_VERSION: v25.9.11
+
+jobs:
+  # ── Шаг 1: читаем реестр источников и строим матрицу ───────────────────
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.build.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: build
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json, re
+          src, cur = [], None
+          for raw in open("sources.yml", encoding="utf-8"):
+              line = raw.rstrip()
+              if re.match(r"\s*#", line) or not line.strip():
+                  continue
+              m = re.match(r"\s*- id:\s*(\S+)", line)
+              if m:
+                  cur = {"id": m.group(1), "urls": []}
+                  src.append(cur)
+                  continue
+              if cur is None:
+                  continue
+              m = re.match(r"\s*(category|trust|max_bytes):\s*(\S+)", line)
+              if m:
+                  cur[m.group(1)] = m.group(2)
+                  continue
+              m = re.match(r"\s*- (https://\S+)", line)
+              if m:
+                  cur["urls"].append(m.group(1))
+          src = [s for s in src if s["urls"]]
+          for s in src:
+              s["urls"] = ",".join(s["urls"])
+          print("matrix=" + json.dumps({"include": src}))
+          EOF
+
+  # ── Шаг 2: по одной параллельной задаче на источник ────────────────────
+  collect:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Кэш Xray
+        id: cache-xray
+        uses: actions/cache@v4
+        with:
+          path: bin
+          key: xray-${{ env.XRAY_VERSION }}-linux64
+
+      - name: Установка Xray
+        if: steps.cache-xray.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          mkdir -p bin && cd bin
+          curl -fsSL -o x.zip \
+            "https://github.com/XTLS/Xray-core/releases/download/${XRAY_VERSION}/Xray-linux-64.zip"
+          unzip -o -q x.zip xray && chmod +x xray && rm x.zip
+
+      - name: Сбор и TCP-проба
+        run: |
+          python3 scripts/collect.py \
+            --id '${{ matrix.id }}' \
+            --category '${{ matrix.category }}' \
+            --trust '${{ matrix.trust }}' \
+            --max-bytes '${{ matrix.max_bytes }}' \
+            --urls '${{ matrix.urls }}' \
+            --out 'tcp-${{ matrix.id }}.jsonl'
+
+      - name: Реальный проход через узел
+        env:
+          XRAY_BIN: ${{ github.workspace }}/bin/xray
+        run: |
+          python3 scripts/verify.py \
+            --inp 'tcp-${{ matrix.id }}.jsonl' \
+            --out 'ok-${{ matrix.id }}.jsonl' \
+            --workers 24 --limit 4000
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.id }}
+          path: |
+            ok-${{ matrix.id }}.jsonl
+            tcp-${{ matrix.id }}.jsonl.stats.json
+          retention-days: 2
+          if-no-files-found: warn
+
+  # ── Шаг 3: сводим, геолоцируем, публикуем ──────────────────────────────
+  publish:
+    needs: collect
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: parts
+          merge-multiple: true
+
+      - name: База GeoLite2
+        run: |
+          set -euo pipefail
+          mkdir -p geo
+          pip install --quiet maxminddb
+          curl -fsSL -o geo/country.mmdb \
+            https://raw.githubusercontent.com/P3TERX/GeoLite.mmdb/download/GeoLite2-Country.mmdb || true
+          curl -fsSL -o geo/asn.mmdb \
+            https://raw.githubusercontent.com/P3TERX/GeoLite.mmdb/download/GeoLite2-ASN.mmdb || true
+          ls -la geo || true
+
+      - name: Сборка итога
+        run: |
+          shopt -s nullglob
+          if ! compgen -G "parts/ok-*.jsonl" > /dev/null; then
+            echo "::error::ни одна задача не дала результата — публикация отменена"
+            exit 1
+          fi
+          python3 scripts/finalize.py --glob 'parts/ok-*.jsonl' --outdir results
+          mkdir -p results/sources
+          cp parts/*.stats.json results/sources/ 2>/dev/null || true
+
+      - name: Проверка перед публикацией
+        run: |
+          set -euo pipefail
+          COUNT=$(grep -c '^vless://' results/alive.txt || echo 0)
+          echo "узлов в результате: $COUNT"
+          if [ "$COUNT" -lt 20 ]; then
+            echo "::error::слишком мало узлов ($COUNT) — прошлый результат сохраняем"
+            exit 1
+          fi
+
+      - name: Коммит
+        run: |
+          git config user.name  "wl-probe"
+          git config user.email "wl-probe@users.noreply.github.com"
+          git add results
+          if git diff --cached --quiet; then
+            echo "изменений нет"
+          else
+            git commit -m "probe: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,0 +1,17 @@
+{
+ "source": "hiztin-vless",
+ "category": "general",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt",
+   "ok": true,
+   "bytes": 1049567,
+   "vless": 3177,
+   "sha256": "0f52d427b93776d9"
+  }
+ ],
+ "unique_configs": 2351,
+ "quarantined_xhttp": 77,
+ "tcp_endpoints": 1706,
+ "tcp_alive": 1670
+}

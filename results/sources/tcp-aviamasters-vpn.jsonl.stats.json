@@ -1,0 +1,24 @@
+{
+ "source": "aviamasters-vpn",
+ "category": "whitelist",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt",
+   "ok": true,
+   "bytes": 30297,
+   "vless": 100,
+   "sha256": "15101486e2918d3f"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt",
+   "ok": true,
+   "bytes": 125377,
+   "vless": 307,
+   "sha256": "446bef63d6e94987"
+  }
+ ],
+ "unique_configs": 272,
+ "quarantined_xhttp": 43,
+ "tcp_endpoints": 174,
+ "tcp_alive": 272
+}

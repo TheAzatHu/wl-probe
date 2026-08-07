@@ -1,0 +1,24 @@
+{
+ "source": "darkroyalty-mirror",
+ "category": "discovery",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/22.txt",
+   "ok": true,
+   "bytes": 240793,
+   "vless": 707,
+   "sha256": "9a51e0c958ab470d"
+  },
+  {
+   "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/24.txt",
+   "ok": true,
+   "bytes": 279456,
+   "vless": 993,
+   "sha256": "ac0de8c2d360b602"
+  }
+ ],
+ "unique_configs": 1527,
+ "quarantined_xhttp": 83,
+ "tcp_endpoints": 1139,
+ "tcp_alive": 1264
+}

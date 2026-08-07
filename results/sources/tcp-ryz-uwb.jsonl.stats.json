@@ -1,0 +1,17 @@
+{
+ "source": "ryz-uwb",
+ "category": "whitelist",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/RYZgames31/UWB/main/wcfg",
+   "ok": true,
+   "bytes": 12409,
+   "vless": 43,
+   "sha256": "e3dfd4b85aa6b36b"
+  }
+ ],
+ "unique_configs": 41,
+ "quarantined_xhttp": 2,
+ "tcp_endpoints": 4,
+ "tcp_alive": 11
+}

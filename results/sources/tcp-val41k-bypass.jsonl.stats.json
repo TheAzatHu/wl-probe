@@ -1,0 +1,24 @@
+{
+ "source": "val41k-bypass",
+ "category": "whitelist",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/VAL41K/bypass-rkn-blocks/main/configs/obhod_WL",
+   "ok": true,
+   "bytes": 2160389,
+   "vless": 7028,
+   "sha256": "69010e1687af7542"
+  },
+  {
+   "url": "https://codeberg.org/VALCHIK/bypass-rkn-blocks/raw/branch/main/configs/obhod_WL",
+   "ok": true,
+   "bytes": 2153244,
+   "vless": 7028,
+   "sha256": "77334dd21cb6aa5c"
+  }
+ ],
+ "unique_configs": 5502,
+ "quarantined_xhttp": 428,
+ "tcp_endpoints": 4573,
+ "tcp_alive": 2216
+}

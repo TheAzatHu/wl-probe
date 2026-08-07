@@ -1,0 +1,17 @@
+{
+ "source": "rjsxrd-bypass",
+ "category": "general",
+ "urls": [
+  {
+   "url": "https://raw.githubusercontent.com/whoahaow/rjsxrd/main/githubmirror/bypass/bypass-all.txt",
+   "ok": true,
+   "bytes": 405453,
+   "vless": 969,
+   "sha256": "c58b777ff86c3acb"
+  }
+ ],
+ "unique_configs": 845,
+ "quarantined_xhttp": 0,
+ "tcp_endpoints": 632,
+ "tcp_alive": 837
+}

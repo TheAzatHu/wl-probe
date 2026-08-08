@@ -7,11 +7,11 @@
    "ok": true,
    "bytes": 7781,
    "vless": 30,
-   "sha256": "171a587416db3c78"
+   "sha256": "b6599b013c0676e7"
   }
  ],
  "unique_configs": 29,
  "quarantined_xhttp": 1,
  "tcp_endpoints": 29,
- "tcp_alive": 10
+ "tcp_alive": 8
 }

@@ -5,34 +5,32 @@
   {
    "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
    "ok": true,
-   "bytes": 1707,
-   "vless": 4,
-   "sha256": "25b46d22ef20fc98"
+   "bytes": 3231,
+   "vless": 9,
+   "sha256": "2e5b9712fb48165b"
   },
   {
    "url": "https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/WHITE-CIDR-RU-checked.txt",
    "ok": true,
-   "bytes": 1707,
-   "vless": 4,
-   "sha256": "25b46d22ef20fc98"
+   "bytes": 3231,
+   "vless": 9,
+   "sha256": "2e5b9712fb48165b"
   },
   {
    "url": "https://codeberg.org/igareck/vpn-configs-for-russia/raw/branch/main/WHITE-CIDR-RU-checked.txt",
-   "ok": true,
-   "bytes": 1707,
-   "vless": 4,
-   "sha256": "25b46d22ef20fc98"
+   "ok": false,
+   "error": "HTTP Error 504: Gateway Time-out"
   },
   {
    "url": "https://bitbucket.org/igareck/vpn-configs-for-russia/raw/main/WHITE-CIDR-RU-checked.txt",
    "ok": true,
-   "bytes": 1707,
-   "vless": 4,
-   "sha256": "25b46d22ef20fc98"
+   "bytes": 3231,
+   "vless": 9,
+   "sha256": "2e5b9712fb48165b"
   }
  ],
- "unique_configs": 4,
+ "unique_configs": 9,
  "quarantined_xhttp": 0,
  "tcp_endpoints": 2,
- "tcp_alive": 4
+ "tcp_alive": 9
 }

@@ -5,13 +5,13 @@
   {
    "url": "https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/BLACK_LTE.txt",
    "ok": true,
-   "bytes": 95612,
-   "vless": 370,
-   "sha256": "6a8687550d69d1ee"
+   "bytes": 94088,
+   "vless": 360,
+   "sha256": "dfc6b1cfee427865"
   }
  ],
- "unique_configs": 340,
- "quarantined_xhttp": 22,
- "tcp_endpoints": 340,
- "tcp_alive": 337
+ "unique_configs": 330,
+ "quarantined_xhttp": 23,
+ "tcp_endpoints": 330,
+ "tcp_alive": 328
 }

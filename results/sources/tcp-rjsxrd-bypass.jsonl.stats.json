@@ -5,13 +5,13 @@
   {
    "url": "https://raw.githubusercontent.com/whoahaow/rjsxrd/main/githubmirror/bypass/bypass-all.txt",
    "ok": true,
-   "bytes": 364334,
-   "vless": 921,
-   "sha256": "0540b880fdd6fca0"
+   "bytes": 353885,
+   "vless": 906,
+   "sha256": "59479670f7fcfa91"
   }
  ],
- "unique_configs": 828,
+ "unique_configs": 809,
  "quarantined_xhttp": 0,
- "tcp_endpoints": 537,
- "tcp_alive": 807
+ "tcp_endpoints": 515,
+ "tcp_alive": 774
 }

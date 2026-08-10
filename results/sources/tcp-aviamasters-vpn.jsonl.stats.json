@@ -5,20 +5,20 @@
   {
    "url": "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt",
    "ok": true,
-   "bytes": 20727,
-   "vless": 62,
-   "sha256": "0c04205f3a1cf19c"
+   "bytes": 15342,
+   "vless": 51,
+   "sha256": "78dd1905e7eb4f51"
   },
   {
    "url": "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt",
    "ok": true,
-   "bytes": 120446,
-   "vless": 263,
-   "sha256": "e24b0ff12774fdcc"
+   "bytes": 112882,
+   "vless": 193,
+   "sha256": "c28a3141d7fef228"
   }
  ],
- "unique_configs": 263,
- "quarantined_xhttp": 6,
- "tcp_endpoints": 93,
- "tcp_alive": 255
+ "unique_configs": 187,
+ "quarantined_xhttp": 9,
+ "tcp_endpoints": 111,
+ "tcp_alive": 169
 }

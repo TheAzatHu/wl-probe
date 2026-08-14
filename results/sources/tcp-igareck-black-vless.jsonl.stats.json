@@ -27,5 +27,5 @@
  "unique_configs": 110,
  "quarantined_xhttp": 6,
  "tcp_endpoints": 37,
- "tcp_alive": 110
+ "tcp_alive": 100
 }

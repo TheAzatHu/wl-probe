@@ -5,9 +5,9 @@
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/top_600.txt",
    "ok": true,
-   "bytes": 71010,
-   "vless": 280,
-   "sha256": "37d5c69dc0b80b0b"
+   "bytes": 120078,
+   "vless": 494,
+   "sha256": "965a49e203e83887"
   },
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/ping_tested.txt",
@@ -24,8 +24,8 @@
    "sha256": "37d5c69dc0b80b0b"
   }
  ],
- "unique_configs": 495,
- "quarantined_xhttp": 16,
- "tcp_endpoints": 277,
- "tcp_alive": 478
+ "unique_configs": 680,
+ "quarantined_xhttp": 38,
+ "tcp_endpoints": 399,
+ "tcp_alive": 660
 }

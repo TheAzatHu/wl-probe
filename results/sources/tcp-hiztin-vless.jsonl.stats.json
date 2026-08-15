@@ -5,13 +5,13 @@
   {
    "url": "https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt",
    "ok": true,
-   "bytes": 1061193,
-   "vless": 2836,
-   "sha256": "2b93f6c5e77d4aaf"
+   "bytes": 1062006,
+   "vless": 2928,
+   "sha256": "f380de8fbf8f5307"
   }
  ],
- "unique_configs": 2046,
+ "unique_configs": 2134,
  "quarantined_xhttp": 86,
- "tcp_endpoints": 1460,
- "tcp_alive": 1390
+ "tcp_endpoints": 1506,
+ "tcp_alive": 1476
 }

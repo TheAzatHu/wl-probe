@@ -5,13 +5,13 @@
   {
    "url": "https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/WHITE_FULL.txt",
    "ok": true,
-   "bytes": 122197,
-   "vless": 425,
-   "sha256": "66fd2e43ed02c3d4"
+   "bytes": 119042,
+   "vless": 413,
+   "sha256": "e2079a846d672a2d"
   }
  ],
- "unique_configs": 374,
+ "unique_configs": 364,
  "quarantined_xhttp": 20,
- "tcp_endpoints": 374,
- "tcp_alive": 364
+ "tcp_endpoints": 364,
+ "tcp_alive": 362
 }

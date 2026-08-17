@@ -4,10 +4,8 @@
  "urls": [
   {
    "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
-   "ok": true,
-   "bytes": 41883,
-   "vless": 120,
-   "sha256": "caf7e69323d5cd33"
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests"
   },
   {
    "url": "https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/WHITE-CIDR-RU-all.txt",
@@ -34,5 +32,5 @@
  "unique_configs": 79,
  "quarantined_xhttp": 41,
  "tcp_endpoints": 17,
- "tcp_alive": 70
+ "tcp_alive": 55
 }

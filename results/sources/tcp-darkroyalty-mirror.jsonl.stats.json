@@ -9,12 +9,14 @@
   },
   {
    "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/24.txt",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "bytes": 298664,
+   "vless": 1059,
+   "sha256": "bb4d07df28fe2a86"
   }
  ],
- "unique_configs": 0,
- "quarantined_xhttp": 0,
- "tcp_endpoints": 0,
- "tcp_alive": 0
+ "unique_configs": 963,
+ "quarantined_xhttp": 83,
+ "tcp_endpoints": 879,
+ "tcp_alive": 698
 }

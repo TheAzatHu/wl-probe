@@ -5,7 +5,7 @@
   {
    "url": "https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/WHITE_FULL.txt",
    "ok": false,
-   "error": "HTTP Error 503: first byte timeout"
+   "error": "HTTP Error 429: Too Many Requests"
   }
  ],
  "unique_configs": 0,

@@ -4,12 +4,14 @@
  "urls": [
   {
    "url": "https://raw.githubusercontent.com/VAL41K/bypass-rkn-blocks/main/configs/obhod_BL",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "bytes": 251013,
+   "vless": 743,
+   "sha256": "6d4c5bf8ce1a4681"
   }
  ],
- "unique_configs": 0,
- "quarantined_xhttp": 0,
- "tcp_endpoints": 0,
- "tcp_alive": 0
+ "unique_configs": 474,
+ "quarantined_xhttp": 54,
+ "tcp_endpoints": 355,
+ "tcp_alive": 330
 }

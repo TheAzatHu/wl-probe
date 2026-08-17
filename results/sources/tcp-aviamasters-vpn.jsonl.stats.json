@@ -4,8 +4,10 @@
  "urls": [
   {
    "url": "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/ru_configs.txt",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "bytes": 41754,
+   "vless": 120,
+   "sha256": "4b9c2cc6d5182045"
   },
   {
    "url": "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/verified_configs.txt",
@@ -15,8 +17,8 @@
    "sha256": "8c0e1c81ff30da9e"
   }
  ],
- "unique_configs": 213,
- "quarantined_xhttp": 54,
- "tcp_endpoints": 127,
- "tcp_alive": 202
+ "unique_configs": 241,
+ "quarantined_xhttp": 61,
+ "tcp_endpoints": 129,
+ "tcp_alive": 210
 }

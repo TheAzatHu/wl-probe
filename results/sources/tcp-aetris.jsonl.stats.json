@@ -4,12 +4,14 @@
  "urls": [
   {
    "url": "https://raw.githubusercontent.com/flaafix/AetrisVPN/main/AetrisVPN.txt",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "bytes": 214124,
+   "vless": 650,
+   "sha256": "5e45994700d5f696"
   }
  ],
- "unique_configs": 0,
- "quarantined_xhttp": 0,
- "tcp_endpoints": 0,
- "tcp_alive": 0
+ "unique_configs": 567,
+ "quarantined_xhttp": 46,
+ "tcp_endpoints": 266,
+ "tcp_alive": 442
 }

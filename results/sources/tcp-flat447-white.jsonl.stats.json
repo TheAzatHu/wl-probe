@@ -4,14 +4,12 @@
  "urls": [
   {
    "url": "https://raw.githubusercontent.com/FLAT447/v2ray-lists/main/WHITE_FULL.txt",
-   "ok": true,
-   "bytes": 94507,
-   "vless": 335,
-   "sha256": "73234d3da787f207"
+   "ok": false,
+   "error": "HTTP Error 503: first byte timeout"
   }
  ],
- "unique_configs": 298,
- "quarantined_xhttp": 18,
- "tcp_endpoints": 298,
- "tcp_alive": 293
+ "unique_configs": 0,
+ "quarantined_xhttp": 0,
+ "tcp_endpoints": 0,
+ "tcp_alive": 0
 }

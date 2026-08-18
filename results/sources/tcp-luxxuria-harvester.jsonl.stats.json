@@ -5,16 +5,16 @@
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/top_600.txt",
    "ok": true,
-   "bytes": 70899,
-   "vless": 286,
-   "sha256": "296af6d5cf367d30"
+   "bytes": 53560,
+   "vless": 227,
+   "sha256": "527f13807d8037bd"
   },
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/ping_tested.txt",
    "ok": true,
-   "bytes": 181027,
-   "vless": 645,
-   "sha256": "5be8200e383c1ac9"
+   "bytes": 130455,
+   "vless": 477,
+   "sha256": "f7160352a682d447"
   },
   {
    "url": "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/top_600.txt",
@@ -24,8 +24,8 @@
    "sha256": "12ca9d706e4179e2"
   }
  ],
- "unique_configs": 518,
- "quarantined_xhttp": 55,
- "tcp_endpoints": 355,
- "tcp_alive": 417
+ "unique_configs": 504,
+ "quarantined_xhttp": 51,
+ "tcp_endpoints": 341,
+ "tcp_alive": 430
 }

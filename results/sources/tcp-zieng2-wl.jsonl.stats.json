@@ -5,34 +5,32 @@
   {
    "url": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
    "ok": true,
-   "bytes": 93039,
-   "vless": 188,
-   "sha256": "b3528caad43c8dd8"
+   "bytes": 90505,
+   "vless": 194,
+   "sha256": "93156b792560fda0"
   },
   {
    "url": "https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt",
    "ok": true,
-   "bytes": 93039,
-   "vless": 188,
-   "sha256": "b3528caad43c8dd8"
+   "bytes": 90505,
+   "vless": 194,
+   "sha256": "93156b792560fda0"
   },
   {
    "url": "https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt",
    "ok": true,
-   "bytes": 93039,
-   "vless": 188,
-   "sha256": "b3528caad43c8dd8"
+   "bytes": 90505,
+   "vless": 194,
+   "sha256": "93156b792560fda0"
   },
   {
    "url": "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
-   "ok": true,
-   "bytes": 93039,
-   "vless": 188,
-   "sha256": "b3528caad43c8dd8"
+   "ok": false,
+   "error": "HTTP Error 500: Internal Server Error"
   }
  ],
- "unique_configs": 155,
- "quarantined_xhttp": 32,
- "tcp_endpoints": 82,
- "tcp_alive": 151
+ "unique_configs": 165,
+ "quarantined_xhttp": 29,
+ "tcp_endpoints": 79,
+ "tcp_alive": 128
 }

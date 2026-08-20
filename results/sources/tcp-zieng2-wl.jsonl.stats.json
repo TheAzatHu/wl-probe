@@ -19,9 +19,9 @@
   {
    "url": "https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt",
    "ok": true,
-   "bytes": 93217,
-   "vless": 210,
-   "sha256": "383b80fb36f910e0"
+   "bytes": 83255,
+   "vless": 202,
+   "sha256": "70c3d7e288d60ca5"
   },
   {
    "url": "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
@@ -31,8 +31,8 @@
    "sha256": "70c3d7e288d60ca5"
   }
  ],
- "unique_configs": 294,
- "quarantined_xhttp": 39,
- "tcp_endpoints": 116,
- "tcp_alive": 290
+ "unique_configs": 181,
+ "quarantined_xhttp": 19,
+ "tcp_endpoints": 99,
+ "tcp_alive": 173
 }

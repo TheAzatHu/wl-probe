@@ -4,8 +4,10 @@
  "urls": [
   {
    "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/22.txt",
-   "ok": false,
-   "error": "<urlopen error [Errno 104] Connection reset by peer>"
+   "ok": true,
+   "bytes": 107565,
+   "vless": 259,
+   "sha256": "d0b21dfc789a3cb8"
   },
   {
    "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/24.txt",
@@ -15,8 +17,8 @@
    "sha256": "c409acb337f34db9"
   }
  ],
- "unique_configs": 797,
- "quarantined_xhttp": 75,
- "tcp_endpoints": 738,
- "tcp_alive": 532
+ "unique_configs": 1024,
+ "quarantined_xhttp": 88,
+ "tcp_endpoints": 914,
+ "tcp_alive": 751
 }

@@ -26,13 +26,13 @@
   {
    "url": "https://bitbucket.org/igareck/vpn-configs-for-russia/raw/main/WHITE-CIDR-RU-all.txt",
    "ok": true,
-   "bytes": 11498,
-   "vless": 30,
-   "sha256": "e789209ab763adb1"
+   "bytes": 16108,
+   "vless": 40,
+   "sha256": "dd80f641f402385a"
   }
  ],
- "unique_configs": 36,
+ "unique_configs": 25,
  "quarantined_xhttp": 15,
- "tcp_endpoints": 7,
- "tcp_alive": 36
+ "tcp_endpoints": 5,
+ "tcp_alive": 25
 }

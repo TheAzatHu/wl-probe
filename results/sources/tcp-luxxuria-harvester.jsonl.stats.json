@@ -19,13 +19,13 @@
   {
    "url": "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/top_600.txt",
    "ok": true,
-   "bytes": 78497,
-   "vless": 325,
-   "sha256": "f766486b342fc7ed"
+   "bytes": 33792,
+   "vless": 137,
+   "sha256": "46aa9bf0612bdde6"
   }
  ],
- "unique_configs": 671,
- "quarantined_xhttp": 44,
- "tcp_endpoints": 333,
- "tcp_alive": 651
+ "unique_configs": 706,
+ "quarantined_xhttp": 50,
+ "tcp_endpoints": 352,
+ "tcp_alive": 683
 }

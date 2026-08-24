@@ -18,10 +18,8 @@
   },
   {
    "url": "https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt",
-   "ok": true,
-   "bytes": 128119,
-   "vless": 231,
-   "sha256": "4d510474761ddb5f"
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden"
   },
   {
    "url": "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
@@ -34,5 +32,5 @@
  "unique_configs": 174,
  "quarantined_xhttp": 52,
  "tcp_endpoints": 94,
- "tcp_alive": 170
+ "tcp_alive": 162
 }

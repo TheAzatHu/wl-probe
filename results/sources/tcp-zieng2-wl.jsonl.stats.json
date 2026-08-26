@@ -5,16 +5,16 @@
   {
    "url": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
    "ok": true,
-   "bytes": 122323,
-   "vless": 199,
-   "sha256": "580d58684f9b1bbd"
+   "bytes": 112534,
+   "vless": 192,
+   "sha256": "2c6ea5350d373d66"
   },
   {
    "url": "https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt",
    "ok": true,
-   "bytes": 122323,
-   "vless": 199,
-   "sha256": "580d58684f9b1bbd"
+   "bytes": 112534,
+   "vless": 192,
+   "sha256": "2c6ea5350d373d66"
   },
   {
    "url": "https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt",
@@ -24,13 +24,13 @@
   {
    "url": "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
    "ok": true,
-   "bytes": 122323,
-   "vless": 199,
-   "sha256": "580d58684f9b1bbd"
+   "bytes": 112534,
+   "vless": 192,
+   "sha256": "2c6ea5350d373d66"
   }
  ],
- "unique_configs": 143,
- "quarantined_xhttp": 52,
- "tcp_endpoints": 79,
- "tcp_alive": 131
+ "unique_configs": 141,
+ "quarantined_xhttp": 46,
+ "tcp_endpoints": 82,
+ "tcp_alive": 129
 }

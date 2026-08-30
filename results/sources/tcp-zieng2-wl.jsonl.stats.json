@@ -23,14 +23,12 @@
   },
   {
    "url": "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
-   "ok": true,
-   "bytes": 125365,
-   "vless": 169,
-   "sha256": "f8d6c41d992aadb4"
+   "ok": false,
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain "
   }
  ],
  "unique_configs": 110,
  "quarantined_xhttp": 57,
  "tcp_endpoints": 63,
- "tcp_alive": 105
+ "tcp_alive": 99
 }

@@ -5,27 +5,27 @@
   {
    "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
    "ok": true,
-   "bytes": 40896,
-   "vless": 133,
-   "sha256": "a75b4457570c730d"
+   "bytes": 48321,
+   "vless": 156,
+   "sha256": "5d67141c8b76027e"
   },
   {
    "url": "https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/BLACK_VLESS_RUS.txt",
    "ok": true,
-   "bytes": 40896,
-   "vless": 133,
-   "sha256": "a75b4457570c730d"
+   "bytes": 48321,
+   "vless": 156,
+   "sha256": "5d67141c8b76027e"
   },
   {
    "url": "https://codeberg.org/igareck/vpn-configs-for-russia/raw/branch/main/BLACK_VLESS_RUS.txt",
    "ok": true,
-   "bytes": 40896,
-   "vless": 133,
-   "sha256": "a75b4457570c730d"
+   "bytes": 48321,
+   "vless": 156,
+   "sha256": "5d67141c8b76027e"
   }
  ],
- "unique_configs": 115,
- "quarantined_xhttp": 13,
- "tcp_endpoints": 46,
- "tcp_alive": 112
+ "unique_configs": 128,
+ "quarantined_xhttp": 12,
+ "tcp_endpoints": 32,
+ "tcp_alive": 106
 }

@@ -5,20 +5,20 @@
   {
    "url": "https://raw.githubusercontent.com/VAL41K/bypass-rkn-blocks/main/configs/obhod_WL",
    "ok": true,
-   "bytes": 2137249,
-   "vless": 6963,
-   "sha256": "d23af2ed6b35aff9"
+   "bytes": 2325612,
+   "vless": 7567,
+   "sha256": "b44ccbfa0b69bd41"
   },
   {
    "url": "https://codeberg.org/VALCHIK/bypass-rkn-blocks/raw/branch/main/configs/obhod_WL",
    "ok": true,
-   "bytes": 2130170,
-   "vless": 6963,
-   "sha256": "5641c09d71f5bedb"
+   "bytes": 2360775,
+   "vless": 7711,
+   "sha256": "9c2005b1190888a7"
   }
  ],
- "unique_configs": 5638,
- "quarantined_xhttp": 332,
- "tcp_endpoints": 4749,
- "tcp_alive": 1481
+ "unique_configs": 6546,
+ "quarantined_xhttp": 403,
+ "tcp_endpoints": 5418,
+ "tcp_alive": 2671
 }

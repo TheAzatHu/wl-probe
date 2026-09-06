@@ -5,7 +5,7 @@
   {
    "url": "https://gbr.mydan.online/configs",
    "ok": false,
-   "error": "Remote end closed connection without response"
+   "error": "IncompleteRead(3999 bytes read)"
   }
  ],
  "unique_configs": 0,

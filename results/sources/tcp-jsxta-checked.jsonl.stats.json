@@ -4,14 +4,12 @@
  "urls": [
   {
    "url": "https://gbr.mydan.online/configs",
-   "ok": true,
-   "bytes": 38507,
-   "vless": 147,
-   "sha256": "117e7f79bbae312b"
+   "ok": false,
+   "error": "Remote end closed connection without response"
   }
  ],
- "unique_configs": 144,
- "quarantined_xhttp": 3,
- "tcp_endpoints": 144,
- "tcp_alive": 33
+ "unique_configs": 0,
+ "quarantined_xhttp": 0,
+ "tcp_endpoints": 0,
+ "tcp_alive": 0
 }

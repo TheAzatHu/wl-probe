@@ -5,34 +5,34 @@
   {
    "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
    "ok": true,
-   "bytes": 305,
-   "vless": 0,
-   "sha256": "17121ad078f1765e"
+   "bytes": 4539,
+   "vless": 15,
+   "sha256": "2d8855185777951e"
   },
   {
    "url": "https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/WHITE-CIDR-RU-checked.txt",
    "ok": true,
-   "bytes": 305,
-   "vless": 0,
-   "sha256": "17121ad078f1765e"
+   "bytes": 4539,
+   "vless": 15,
+   "sha256": "2d8855185777951e"
   },
   {
    "url": "https://codeberg.org/igareck/vpn-configs-for-russia/raw/branch/main/WHITE-CIDR-RU-checked.txt",
    "ok": true,
-   "bytes": 305,
-   "vless": 0,
-   "sha256": "17121ad078f1765e"
+   "bytes": 4539,
+   "vless": 15,
+   "sha256": "2d8855185777951e"
   },
   {
    "url": "https://bitbucket.org/igareck/vpn-configs-for-russia/raw/main/WHITE-CIDR-RU-checked.txt",
    "ok": true,
-   "bytes": 305,
-   "vless": 0,
-   "sha256": "6688383fb73098aa"
+   "bytes": 4539,
+   "vless": 15,
+   "sha256": "2d8855185777951e"
   }
  ],
  "unique_configs": 0,
- "quarantined_xhttp": 0,
+ "quarantined_xhttp": 15,
  "tcp_endpoints": 0,
  "tcp_alive": 0
 }

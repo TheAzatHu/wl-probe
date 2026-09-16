@@ -5,7 +5,7 @@
   {
    "url": "https://gbr.mydan.online/configs",
    "ok": false,
-   "error": "Remote end closed connection without response"
+   "error": "HTTP Error 502: Bad Gateway"
   }
  ],
  "unique_configs": 0,

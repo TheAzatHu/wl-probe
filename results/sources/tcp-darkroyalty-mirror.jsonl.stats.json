@@ -12,13 +12,13 @@
   {
    "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/24.txt",
    "ok": true,
-   "bytes": 214970,
-   "vless": 786,
-   "sha256": "32bb5d909202983d"
+   "bytes": 221345,
+   "vless": 800,
+   "sha256": "19d5d4310cfb19f1"
   }
  ],
- "unique_configs": 878,
- "quarantined_xhttp": 82,
- "tcp_endpoints": 813,
- "tcp_alive": 544
+ "unique_configs": 890,
+ "quarantined_xhttp": 85,
+ "tcp_endpoints": 822,
+ "tcp_alive": 546
 }

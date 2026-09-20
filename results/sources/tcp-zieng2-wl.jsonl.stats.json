@@ -5,16 +5,16 @@
   {
    "url": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
    "ok": true,
-   "bytes": 64950,
-   "vless": 115,
-   "sha256": "8da25f1affe18964"
+   "bytes": 80650,
+   "vless": 147,
+   "sha256": "8a2088a5d81f501a"
   },
   {
    "url": "https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt",
    "ok": true,
-   "bytes": 64950,
-   "vless": 115,
-   "sha256": "8da25f1affe18964"
+   "bytes": 80650,
+   "vless": 147,
+   "sha256": "8a2088a5d81f501a"
   },
   {
    "url": "https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt",
@@ -24,11 +24,11 @@
   {
    "url": "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
    "ok": false,
-   "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+   "error": "<urlopen error timed out>"
   }
  ],
- "unique_configs": 85,
- "quarantined_xhttp": 24,
- "tcp_endpoints": 41,
- "tcp_alive": 80
+ "unique_configs": 108,
+ "quarantined_xhttp": 33,
+ "tcp_endpoints": 49,
+ "tcp_alive": 106
 }

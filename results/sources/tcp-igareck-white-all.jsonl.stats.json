@@ -5,34 +5,32 @@
   {
    "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
    "ok": true,
-   "bytes": 6421,
-   "vless": 16,
-   "sha256": "1caa9246291d9f1d"
+   "bytes": 2092,
+   "vless": 0,
+   "sha256": "ad90fc90597ebcbb"
   },
   {
    "url": "https://gitlab.com/igareck/vpn-configs-for-russia/-/raw/main/WHITE-CIDR-RU-all.txt",
    "ok": true,
-   "bytes": 6421,
-   "vless": 16,
-   "sha256": "1caa9246291d9f1d"
+   "bytes": 2092,
+   "vless": 0,
+   "sha256": "ad90fc90597ebcbb"
   },
   {
    "url": "https://codeberg.org/igareck/vpn-configs-for-russia/raw/branch/main/WHITE-CIDR-RU-all.txt",
    "ok": true,
-   "bytes": 6421,
-   "vless": 16,
-   "sha256": "1caa9246291d9f1d"
+   "bytes": 2092,
+   "vless": 0,
+   "sha256": "ad90fc90597ebcbb"
   },
   {
    "url": "https://bitbucket.org/igareck/vpn-configs-for-russia/raw/main/WHITE-CIDR-RU-all.txt",
-   "ok": true,
-   "bytes": 6421,
-   "vless": 16,
-   "sha256": "1caa9246291d9f1d"
+   "ok": false,
+   "error": "HTTP Error 503: Service Unavailable"
   }
  ],
- "unique_configs": 16,
+ "unique_configs": 0,
  "quarantined_xhttp": 0,
- "tcp_endpoints": 3,
- "tcp_alive": 6
+ "tcp_endpoints": 0,
+ "tcp_alive": 0
 }

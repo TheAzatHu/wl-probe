@@ -5,13 +5,13 @@
   {
    "url": "https://raw.githubusercontent.com/VAL41K/bypass-rkn-blocks/main/configs/obhod_BL",
    "ok": true,
-   "bytes": 312810,
-   "vless": 903,
-   "sha256": "874617aced66378f"
+   "bytes": 187433,
+   "vless": 511,
+   "sha256": "26df99ce548bf321"
   }
  ],
- "unique_configs": 653,
- "quarantined_xhttp": 81,
- "tcp_endpoints": 473,
- "tcp_alive": 312
+ "unique_configs": 397,
+ "quarantined_xhttp": 40,
+ "tcp_endpoints": 255,
+ "tcp_alive": 363
 }

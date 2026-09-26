@@ -5,20 +5,20 @@
   {
    "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/22.txt",
    "ok": true,
-   "bytes": 111305,
-   "vless": 207,
-   "sha256": "ec21f91ee62d0f78"
+   "bytes": 97071,
+   "vless": 171,
+   "sha256": "3f9aa8dc28443a15"
   },
   {
    "url": "https://raw.githubusercontent.com/DarkRoyalty/shnajder-vpn-configs/main/githubmirror/24.txt",
    "ok": true,
-   "bytes": 217231,
-   "vless": 788,
-   "sha256": "53f376d1fd08bf94"
+   "bytes": 219446,
+   "vless": 792,
+   "sha256": "48b41c82b4bc726b"
   }
  ],
- "unique_configs": 893,
- "quarantined_xhttp": 79,
- "tcp_endpoints": 813,
- "tcp_alive": 533
+ "unique_configs": 861,
+ "quarantined_xhttp": 80,
+ "tcp_endpoints": 794,
+ "tcp_alive": 508
 }

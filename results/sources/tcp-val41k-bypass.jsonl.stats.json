@@ -12,13 +12,13 @@
   {
    "url": "https://codeberg.org/VALCHIK/bypass-rkn-blocks/raw/branch/main/configs/obhod_WL",
    "ok": true,
-   "bytes": 2360775,
-   "vless": 7711,
-   "sha256": "9c2005b1190888a7"
+   "bytes": 407962,
+   "vless": 1104,
+   "sha256": "a9eb8d12fde50bb2"
   }
  ],
- "unique_configs": 6546,
- "quarantined_xhttp": 403,
- "tcp_endpoints": 5418,
- "tcp_alive": 2161
+ "unique_configs": 6981,
+ "quarantined_xhttp": 462,
+ "tcp_endpoints": 5628,
+ "tcp_alive": 2538
 }

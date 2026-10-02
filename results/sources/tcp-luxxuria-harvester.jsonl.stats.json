@@ -4,28 +4,24 @@
  "urls": [
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/top_600.txt",
-   "ok": true,
-   "bytes": 17048,
-   "vless": 65,
-   "sha256": "bfcdb5586f889c86"
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
   },
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/ping_tested.txt",
    "ok": true,
-   "bytes": 41338,
-   "vless": 132,
-   "sha256": "f4db84f7e504da1d"
+   "bytes": 27767,
+   "vless": 96,
+   "sha256": "68a26d8f458651ff"
   },
   {
    "url": "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/top_600.txt",
-   "ok": true,
-   "bytes": 17048,
-   "vless": 65,
-   "sha256": "bfcdb5586f889c86"
+   "ok": false,
+   "error": "HTTP Error 404: Not Found"
   }
  ],
- "unique_configs": 109,
- "quarantined_xhttp": 22,
- "tcp_endpoints": 101,
- "tcp_alive": 89
+ "unique_configs": 75,
+ "quarantined_xhttp": 21,
+ "tcp_endpoints": 69,
+ "tcp_alive": 72
 }

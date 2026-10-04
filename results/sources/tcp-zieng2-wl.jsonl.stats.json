@@ -5,16 +5,16 @@
   {
    "url": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
    "ok": true,
-   "bytes": 44504,
-   "vless": 106,
-   "sha256": "d323fd3f0597d995"
+   "bytes": 44804,
+   "vless": 125,
+   "sha256": "3761dde8c0cdb1b2"
   },
   {
    "url": "https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt",
    "ok": true,
-   "bytes": 44504,
-   "vless": 106,
-   "sha256": "d323fd3f0597d995"
+   "bytes": 44804,
+   "vless": 125,
+   "sha256": "3761dde8c0cdb1b2"
   },
   {
    "url": "https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt",
@@ -24,11 +24,11 @@
   {
    "url": "https://hub.mos.ru/zieng2/wl/raw/main/list_universal.txt",
    "ok": false,
-   "error": "HTTP Error 502: Bad Gateway"
+   "error": "HTTP Error 404: Not Found"
   }
  ],
- "unique_configs": 66,
- "quarantined_xhttp": 17,
- "tcp_endpoints": 28,
- "tcp_alive": 63
+ "unique_configs": 85,
+ "quarantined_xhttp": 16,
+ "tcp_endpoints": 38,
+ "tcp_alive": 84
 }

@@ -5,16 +5,16 @@
   {
    "url": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
    "ok": true,
-   "bytes": 65721,
-   "vless": 152,
-   "sha256": "f306435f8c1c2fa1"
+   "bytes": 68620,
+   "vless": 162,
+   "sha256": "1b4761773bd135db"
   },
   {
    "url": "https://codeberg.org/zieng2/wl/raw/branch/main/vless_universal.txt",
    "ok": true,
-   "bytes": 65721,
-   "vless": 152,
-   "sha256": "f306435f8c1c2fa1"
+   "bytes": 68620,
+   "vless": 162,
+   "sha256": "1b4761773bd135db"
   },
   {
    "url": "https://gitlab.com/zieng2/wl/raw/main/vless_universal.txt",
@@ -27,8 +27,8 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "unique_configs": 103,
- "quarantined_xhttp": 34,
- "tcp_endpoints": 46,
- "tcp_alive": 100
+ "unique_configs": 115,
+ "quarantined_xhttp": 28,
+ "tcp_endpoints": 49,
+ "tcp_alive": 102
 }

@@ -10,18 +10,18 @@
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/ping_tested.txt",
    "ok": true,
-   "bytes": 83183,
-   "vless": 290,
-   "sha256": "cebb18636fd5729c"
+   "bytes": 59927,
+   "vless": 210,
+   "sha256": "2e1b70191cefedc6"
   },
   {
    "url": "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/top_600.txt",
    "ok": false,
-   "error": "HTTP Error 404: Not Found"
+   "error": "The read operation timed out"
   }
  ],
- "unique_configs": 241,
- "quarantined_xhttp": 49,
- "tcp_endpoints": 233,
- "tcp_alive": 226
+ "unique_configs": 172,
+ "quarantined_xhttp": 38,
+ "tcp_endpoints": 170,
+ "tcp_alive": 165
 }

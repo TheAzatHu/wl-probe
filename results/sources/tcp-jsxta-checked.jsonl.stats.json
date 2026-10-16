@@ -5,13 +5,13 @@
   {
    "url": "https://gbr.mydan.online/configs",
    "ok": true,
-   "bytes": 12668,
+   "bytes": 12722,
    "vless": 49,
-   "sha256": "201e19285026d711"
+   "sha256": "7e7c7a58672fb65c"
   }
  ],
  "unique_configs": 43,
  "quarantined_xhttp": 3,
  "tcp_endpoints": 43,
- "tcp_alive": 18
+ "tcp_alive": 19
 }

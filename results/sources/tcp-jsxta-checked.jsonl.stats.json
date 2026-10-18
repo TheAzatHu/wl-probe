@@ -4,12 +4,14 @@
  "urls": [
   {
    "url": "https://gbr.mydan.online/configs",
-   "ok": false,
-   "error": "IncompleteRead(3999 bytes read)"
+   "ok": true,
+   "bytes": 13151,
+   "vless": 51,
+   "sha256": "5bb10ae3e40c85c7"
   }
  ],
- "unique_configs": 0,
- "quarantined_xhttp": 0,
- "tcp_endpoints": 0,
- "tcp_alive": 0
+ "unique_configs": 45,
+ "quarantined_xhttp": 3,
+ "tcp_endpoints": 45,
+ "tcp_alive": 20
 }

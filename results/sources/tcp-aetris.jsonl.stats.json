@@ -5,13 +5,13 @@
   {
    "url": "https://raw.githubusercontent.com/flaafix/AetrisVPN/main/AetrisVPN.txt",
    "ok": true,
-   "bytes": 214110,
+   "bytes": 227869,
    "vless": 547,
-   "sha256": "30d4f9f428d6bafb"
+   "sha256": "bfbd5a9e932c469b"
   }
  ],
- "unique_configs": 315,
- "quarantined_xhttp": 109,
- "tcp_endpoints": 134,
- "tcp_alive": 167
+ "unique_configs": 290,
+ "quarantined_xhttp": 127,
+ "tcp_endpoints": 109,
+ "tcp_alive": 145
 }

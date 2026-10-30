@@ -4,14 +4,12 @@
  "urls": [
   {
    "url": "https://gbr.mydan.online/configs",
-   "ok": true,
-   "bytes": 15658,
-   "vless": 58,
-   "sha256": "fd83748c3612cc47"
+   "ok": false,
+   "error": "[Errno 104] Connection reset by peer"
   }
  ],
- "unique_configs": 52,
- "quarantined_xhttp": 3,
- "tcp_endpoints": 52,
- "tcp_alive": 21
+ "unique_configs": 0,
+ "quarantined_xhttp": 0,
+ "tcp_endpoints": 0,
+ "tcp_alive": 0
 }

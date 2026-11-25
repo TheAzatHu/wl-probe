@@ -10,9 +10,9 @@
   {
    "url": "https://raw.githubusercontent.com/luxxuria/harvester/main/ping_tested.txt",
    "ok": true,
-   "bytes": 14544,
-   "vless": 51,
-   "sha256": "57dd1018bd799cd6"
+   "bytes": 41412,
+   "vless": 145,
+   "sha256": "3ebe3bbd51fe8ed3"
   },
   {
    "url": "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/top_600.txt",
@@ -20,8 +20,8 @@
    "error": "HTTP Error 404: Not Found"
   }
  ],
- "unique_configs": 41,
- "quarantined_xhttp": 10,
- "tcp_endpoints": 39,
- "tcp_alive": 38
+ "unique_configs": 126,
+ "quarantined_xhttp": 19,
+ "tcp_endpoints": 108,
+ "tcp_alive": 119
 }
